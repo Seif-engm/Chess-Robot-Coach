@@ -1,3 +1,4 @@
+_BASE_: config://occupancy_classifier/_base_pretrained.yaml
 
 DATASET:
   TRANSFORMS:
