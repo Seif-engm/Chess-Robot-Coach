@@ -1,110 +1,38 @@
-Chess Coach Robot
-Project Overview
-The Chess Coach Robot is designed to assist players by using advanced computer vision and voice recognition technologies. It can analyze and recognize chessboard states and moves, helping users by providing move suggestions and analyzing positions. The robot interacts with the player using voice commands, enabling a hands-free and intuitive user experience.
+# Chess Coach Robot
 
-Objective:
+## Project Overview
+
+The **Chess Coach Robot** is an AI-powered assistant designed to help users play chess by using **computer vision** and **voice recognition**. It captures the chessboard’s state in real-time using a camera and suggests optimal moves based on the current position. The robot also understands voice commands to allow users to interact with it seamlessly, making it an interactive and accessible way to improve at chess.
+
+**Objective**:  
 To build a chess-playing assistant robot that:
+- Recognizes and tracks chessboard positions through computer vision.
+- Analyzes the game and suggests moves using the Stockfish chess engine.
+- Provides voice feedback to the user about the game state and player moves.
+- Listens to voice commands to allow the user to control the game hands-free.
 
-Recognizes chessboard positions through computer vision.
-Analyzes the game and suggests moves.
-Provides voice feedback on the game status, moves, and suggestions.
-What You’ll Need:
+---
 
-A camera for capturing the chessboard.
-A microphone for voice interaction.
-A Python environment with specific libraries for computer vision, deep learning, and voice recognition.
-Key Features
-Computer Vision for Chessboard Recognition:
-Detects chess pieces on the board and tracks their movements in real-time.
+## Features
 
-Voice Interaction:
-Provides feedback and allows players to make moves using voice commands.
+### 1. **Computer Vision Integration**:
+- Uses a camera to capture real-time images of the chessboard.
+- Processes images with machine learning models to detect and recognize chess pieces and their positions on the board.
+- Tracks and updates the board state after each move.
 
-Game Analysis:
-Analyzes positions and suggests optimal moves for the player.
+### 2. **Voice Recognition**:
+- Listens for player voice commands to make moves and perform other actions.
+- Provides voice feedback such as move confirmations and game status updates.
+- Uses Google’s Text-to-Speech (gTTS) and SpeechRecognition libraries for speech synthesis and recognition.
 
-Real-time Updates:
-Continuously monitors the chessboard state and updates game status.
 
-Getting Started
-Follow these steps to get your Chess Coach Robot running and start playing chess with a virtual coach!
 
-Materials
-Camera: To capture images of the chessboard for computer vision processing.
-Microphone: For voice recognition and interaction.
-Computer: A device capable of running Python and the necessary libraries.
-Prerequisites
-Before diving into the setup, make sure you have the required hardware components mentioned above and software dependencies installed.
+### 3. **Interactive Gameplay**:
+- Supports two-way interaction: the player speaks to the robot to make moves, and the robot responds with its move suggestions or explanations.
+- Provides move validation and confirmation with voice feedback.
 
-Software Dependencies
-Python 3.x: The primary language for development.
-OpenCV: For computer vision and chessboard recognition.
-bash
-Copy code
-pip install opencv-python
-PyTorch: A machine learning framework used for deep learning-based chess move prediction.
-bash
-Copy code
-pip install torch torchvision
-SpeechRecognition: For voice recognition, which allows the robot to understand spoken commands.
-bash
-Copy code
-pip install SpeechRecognition
-gTTS: For text-to-speech conversion, enabling voice feedback.
-bash
-Copy code
-pip install gTTS
-ROS (if used): For handling robot movements and sensor interactions.
-bash
-Copy code
-sudo apt install ros-noetic-desktop-full
-Installation
-Part 1: Download and Build the Necessary Packages
-Clone this repository to your local machine:
+---
+## Support
 
-bash
-Copy code
-git clone https://github.com/your-repository/chess-coach-robot.git
-Navigate to the project folder:
+If you have any issues or need further assistance with the Chess Coach Robot, feel free to reach out. 
 
-bash
-Copy code
-cd chess-coach-robot
-Install all required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Part 2: Python Environment and Packages
-Ensure your Python environment is properly set up by installing the necessary packages:
-
-Install OpenCV for chessboard recognition:
-
-bash
-Copy code
-pip install opencv-python
-Install PyTorch for AI and machine learning-based chess analysis:
-
-bash
-Copy code
-pip install torch torchvision
-Install SpeechRecognition and gTTS for voice interaction:
-
-bash
-Copy code
-pip install SpeechRecognition gTTS
-Make sure all dependencies are successfully installed before proceeding.
-
-Configuration of the Project
-This section explains the configuration of various parameters and variables used in the code:
-
-Camera Settings:
-camera_resolution: Defines the resolution of the camera to capture chessboard images.
-Voice Recognition Settings:
-recognition_language: Specifies the language for speech recognition.
-voice_output_language: Specifies the language for voice feedback.
-Chessboard Recognition:
-board_size: Defines the size of the chessboard (8x8 grid).
-piece_classes: A list of chess piece classes (King, Queen, Rook, Bishop, Knight, Pawn).
-Support
-Need help? You can reach out directly via the Issues tab of the GitHub page for support.
