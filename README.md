@@ -30,6 +30,8 @@ To build a chess-playing assistant robot that:
 ### 3. **Interactive Gameplay**:
 - Supports two-way interaction: the player speaks to the robot to make moves, and the robot responds with its move suggestions or explanations.
 - Provides move validation and confirmation with voice feedback.
+### 4. **Energy-System**:
+Thanks to natural resources, innovative methods have been invented to produce and generate energy. The project is based on 3 main methods: solar energy using the sunflower method, hydraulic energy by coupling a turbine and a water recycling system, and osmotic energy to generate electricity.This code emulates some sensors and actuators parts needed for the functionality of our energy system. 
 
 ---
 ## Support
