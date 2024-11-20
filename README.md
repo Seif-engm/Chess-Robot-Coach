@@ -25,7 +25,9 @@ Thanks to natural resources, innovative methods have been invented to produce an
 - Uses a camera to capture real-time images of the chessboard.
 - Processes images with machine learning models to detect and recognize chess pieces and their positions on the board.
 - Tracks and updates the board state after each move.
+
 **Interactive Gameplay**:
+
 - Supports two-way interaction: the player speaks to the robot to make moves, and the robot responds with its move suggestions or explanations.
 - Provides move validation and confirmation with voice feedback.
 
