@@ -28,7 +28,7 @@ Thanks to natural resources, innovative methods have been invented to produce an
 **Interactive Gameplay**:
 - Supports two-way interaction: the player speaks to the robot to make moves, and the robot responds with its move suggestions or explanations.
 - Provides move validation and confirmation with voice feedback.
----
+
 
 ### Phase III. **Student-Learning-Outcomes(Voice Recognition)**:
 - Listens for player voice commands to make moves and perform other actions.
