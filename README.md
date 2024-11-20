@@ -16,6 +16,7 @@ To build a chess-playing assistant robot that:
 ## Features
 
 ### Phase I. ** Chess-Robot6construction(Energy-System)**:
+*
 Thanks to natural resources, innovative methods have been invented to produce and generate energy. The project is based on 3 main methods: solar energy using the sunflower method, hydraulic energy by coupling a turbine and a water recycling system, and osmotic energy to generate electricity.This code emulates some sensors and actuators parts needed for the functionality of our energy system. 
 ---
 
